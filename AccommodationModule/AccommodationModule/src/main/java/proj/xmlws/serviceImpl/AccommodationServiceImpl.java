@@ -3,14 +3,16 @@ package proj.xmlws.serviceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import proj.xmlws.dto.AccommodationDTO;
-import proj.xmlws.dto.AccommodationListDTO;
+import proj.xmlws.dto.*;
 import proj.xmlws.exception.AccommodationException;
 import proj.xmlws.mapper.AccommodationMapper;
 import proj.xmlws.model.accommodation.Accommodation;
 import proj.xmlws.repository.AccommodationRepository;
+import proj.xmlws.repository.AccommodationUnitRepository;
 import proj.xmlws.repository.ServiceRepository;
 import proj.xmlws.service.AccommodationService;
+import proj.xmlws.service.AccommodationUnitService;
+
 import java.util.List;
 import java.util.function.Predicate;
 
@@ -25,6 +27,9 @@ public class AccommodationServiceImpl implements AccommodationService {
 
     @Autowired
     private ServiceRepository serviceRepository;
+
+    @Autowired
+    private AccommodationUnitService accommodationUnitService;
 
     @Override
     public AccommodationListDTO findAllAccommodations() {
@@ -80,6 +85,37 @@ public class AccommodationServiceImpl implements AccommodationService {
         } else {
             throw new AccommodationException(HttpStatus.NOT_FOUND, "Accommodation doesn't exist");
         }
+    }
+
+
+    public AccommodationListDTO getAccommodationWithFreeUnits(AccommodationSearchDTO accommodationSearchDTO) {
+        AccommodationListDTO accommodationListDTO = this.findAllAccommodations();
+        AccommodationListDTO freeAccommodationListDTO = new AccommodationListDTO();
+        for(AccommodationDTO aDTO : accommodationListDTO.getAccommodationList()) {
+            Accommodation accommodation = accommodationRepository.getOne(aDTO.getId());
+            AccommodationUnitListDTO freeAccommodationUnits = accommodationUnitService.getFreeAccommodationUnits(accommodationSearchDTO, aDTO.getId());
+            if(!freeAccommodationUnits.getAccommodationUnitDTOList().isEmpty()) {
+                int numberOfBeds = 0;
+                for(AccommodationUnitDTO auDTO : freeAccommodationUnits.getAccommodationUnitDTOList()) {
+                    numberOfBeds += auDTO.getNumberOfBeds();
+                }
+                if(numberOfBeds > accommodationSearchDTO.getNumberOfGuests()) {
+                    if (accommodationSearchDTO.getAccommodationTypes().contains(aDTO.getAccommodationType()) || (accommodationSearchDTO.getAccommodationTypes().isEmpty())) {
+                        int numberOfServices = 0;
+                        for(ServiceDTO sDTO : accommodationSearchDTO.getServices()) {
+                            for(proj.xmlws.model.accommodation.Service s : accommodation.getServices()) {
+                                if(sDTO.getName().equals(s.getName())) {
+                                    numberOfServices++;
+                                }
+                            }
+                        }
+                        if(numberOfServices >= accommodationSearchDTO.getServices().size())
+                            freeAccommodationListDTO.getAccommodationList().add(aDTO);
+                    }
+                }
+            }
+        }
+        return freeAccommodationListDTO;
     }
 
 //    ******************************************************************************************

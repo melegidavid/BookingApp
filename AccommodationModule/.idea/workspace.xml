@@ -2,52 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7e6c7f4-3c1e-4e11-aa85-3698842d9dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/dto/AccommodationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/dto/AccommodationUnitDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/dto/AccommodationUnitTypeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/dto/AddressDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/dto/CommentRateDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/dto/MessageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/dto/MessageListDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/dto/ReservationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/enums/AccommodationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/enums/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/exception/ExceptionHandlerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/exception/MessageException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/mapper/AccommodationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/mapper/AccommodationUnitMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/mapper/AccommodationUnitTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/mapper/AddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/mapper/CommentRateMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/mapper/MessageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/mapper/ReservationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/accommodation/Accommodation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/accommodation/AccommodationUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/accommodation/AccommodationUnitType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/accommodation/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/accommodation/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/accommodation/PeriodPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/accommodation/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/accommodation/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/reservation/CommentRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/reservation/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/reservation/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/reservation/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/reservation/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/users/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/users/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/users/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/model/users/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/repository/AccommodationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/repository/MessageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/repository/ReservationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/service/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MessageModule/src/main/java/proj/xmlws/MessageModule/serviceImpl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/dto/AccommodationSearchDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/ReservationRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/controller/AccommodationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/controller/AccommodationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/AccommodationUnitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/AccommodationUnitRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/ServiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/ServiceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/service/AccommodationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/service/AccommodationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/service/AccommodationUnitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/service/AccommodationUnitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/AccommodationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/AccommodationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/AccommodationUnitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/AccommodationUnitServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/AccommodationModule/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,59 +38,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/ServiceServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/AccommodationUnitServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/ServiceRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#0#43#1" expanded="true" />
-                <element signature="e#0#76#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/AccommodationUnitRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#0#56#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -150,15 +62,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/mapper/AccommodationUnitTypeMapper.java" />
-        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/accommodation/PeriodPrice.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/service/AccommodationUnitTypeService.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/controller/AccommodationUnitTypeController.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/mapper/ServiceMapper.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/service/ServiceService.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/controller/ServiceController.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/mapper/PeriodPriceMapper.java" />
-        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/service/AccommodationUnitService.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/service/PeriodPriceService.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/controller/PeriodPriceController.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/AccommodationUnitTypeServiceImpl.java" />
@@ -184,22 +93,25 @@
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/accommodation/Image.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/reservation/Message.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/reservation/Reservation.java" />
-        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/AccommodationRepository.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/AccommodationUnitTypeRepository.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/accommodation/Accommodation.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/accommodation/Service.java" />
-        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/controller/AccommodationController.java" />
-        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/controller/AccommodationUnitController.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/dto/AccommodationUnitDTO.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/accommodation/AccommodationUnitType.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/mapper/AccommodationUnitMapper.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/accommodation/AccommodationUnit.java" />
-        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/AccommodationUnitServiceImpl.java" />
-        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/AccommodationUnitRepository.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/PeriodPriceRepository.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/PeriodPriceServiceImpl.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/ServiceRepository.java" />
+        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/controller/AccommodationUnitController.java" />
+        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/dto/AccommodationSearchDTO.java" />
+        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/ReservationRepository.java" />
+        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/controller/AccommodationController.java" />
+        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/service/AccommodationUnitService.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/service/AccommodationService.java" />
+        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/AccommodationUnitServiceImpl.java" />
+        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/AccommodationUnitRepository.java" />
+        <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/AccommodationRepository.java" />
         <option value="$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/AccommodationServiceImpl.java" />
       </list>
     </option>
@@ -223,11 +135,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -235,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,7 +187,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xmlws" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AccommodationModule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AccommodationModule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xmlws" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AccommodationModule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AccommodationModule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xmlws" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AccommodationModule" type="b2602c69:ProjectViewProjectNode" />
@@ -292,6 +221,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,11 +324,14 @@
       <workItem from="1586862171817" duration="2135000" />
       <workItem from="1586965626942" duration="1209000" />
       <workItem from="1587057818860" duration="1342000" />
+      <workItem from="1596736047021" duration="3379000" />
+      <workItem from="1596800586271" duration="10806000" />
+      <workItem from="1596899907987" duration="4902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134992000" />
+    <option name="totallyTimeSpent" value="154079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,10 +343,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3181208" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24362417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -423,7 +355,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30878186" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.296034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,39 +388,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/mapper/AddressMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/dto/AccommodationUnitTypeListDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/dto/AccommodationListDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/dto/AccommodationUnitListDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -572,31 +471,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/users/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-334">
-          <caret line="113" column="48" selection-start-line="113" selection-start-column="28" selection-end-line="113" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/reservation/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="104" column="16" lean-forward="true" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/reservation/Reservation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="118" column="65" selection-start-line="118" selection-start-column="65" selection-end-line="118" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -611,13 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/accommodation/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -666,17 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/AccommodationUnitTypeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#63#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/PeriodPriceServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -718,27 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/controller/AccommodationUnitController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AccommodationModule/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/enums/AccommodationType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="21" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -749,13 +592,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/enums/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -803,16 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/AccommodationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1958">
-          <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/dto/AccommodationUnitDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
@@ -833,40 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/service/AccommodationUnitService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/service/AccommodationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/PeriodPriceRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/AccommodationRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/mapper/AccommodationMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -877,32 +669,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/controller/AccommodationController.java">
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/ServiceServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="614">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/AccommodationUnitTypeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#63#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/enums/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/users/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/reservation/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="118" column="65" selection-start-line="118" selection-start-column="65" selection-end-line="118" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/controller/AccommodationUnitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/dto/AccommodationListDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/dto/AccommodationSearchDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/ReservationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/PeriodPriceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/service/AccommodationUnitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="100" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/enums/AccommodationType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/AccommodationUnitServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/model/accommodation/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-367">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/AccommodationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="117" column="40" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/AccommodationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#49#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/ServiceRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="352">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#0#43#1" expanded="true" />
-            <element signature="e#0#76#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/ServiceServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/service/AccommodationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+        <state relative-caret-position="482">
+          <caret line="22" column="102" selection-start-line="22" selection-start-column="102" selection-end-line="22" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/controller/AccommodationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="63" column="106" selection-start-line="63" selection-start-column="106" selection-end-line="63" selection-end-column="106" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -911,21 +854,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/repository/AccommodationUnitRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        <state relative-caret-position="482">
+          <caret line="27" column="102" selection-start-line="27" selection-start-column="102" selection-end-line="27" selection-end-column="102" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#0#56#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccommodationModule/src/main/java/proj/xmlws/serviceImpl/AccommodationUnitServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#99#1" expanded="true" />
+            <element signature="e#0#228#1" expanded="true" />
           </folding>
         </state>
       </provider>

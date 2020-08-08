@@ -1,7 +1,11 @@
 package proj.xmlws.service;
 
+import proj.xmlws.dto.AccommodationListDTO;
+import proj.xmlws.dto.AccommodationSearchDTO;
 import proj.xmlws.dto.AccommodationUnitDTO;
 import proj.xmlws.dto.AccommodationUnitListDTO;
+
+import java.time.LocalDate;
 
 public interface AccommodationUnitService {
 
@@ -16,4 +20,6 @@ public interface AccommodationUnitService {
     boolean removeAccommodationUnit(Long accommodationUnitId);
 
     AccommodationUnitListDTO getAllUnitsOfAccommodation(Long accommodationId);
+
+    AccommodationUnitListDTO getFreeAccommodationUnits(AccommodationSearchDTO accommodationSearchDTO, Long accommodationId);
 }

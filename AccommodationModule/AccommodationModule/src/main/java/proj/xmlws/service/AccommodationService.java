@@ -2,6 +2,7 @@ package proj.xmlws.service;
 
 import proj.xmlws.dto.AccommodationDTO;
 import proj.xmlws.dto.AccommodationListDTO;
+import proj.xmlws.dto.AccommodationSearchDTO;
 
 public interface AccommodationService {
 
@@ -18,4 +19,6 @@ public interface AccommodationService {
     boolean addAccommodationService(Long accommodationId, Long serviceId);
 
     boolean removeAccommodationService(Long accommodationId, Long serviceId);
+
+    AccommodationListDTO getAccommodationWithFreeUnits(AccommodationSearchDTO accommodationSearchDTO);
 }

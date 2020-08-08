@@ -16,4 +16,5 @@ public interface ServiceRepository extends JpaRepository<Service, Long> {
 
     @Query("SELECT s FROM Service s join s.accommodation a WHERE a.id = :accommodationId")
     List<Service> getAccommodationServices(@Param("accommodationId")Long accommodationId);
+
 }

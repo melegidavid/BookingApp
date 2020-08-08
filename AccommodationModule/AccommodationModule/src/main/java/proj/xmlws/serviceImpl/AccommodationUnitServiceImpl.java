@@ -3,6 +3,7 @@ package proj.xmlws.serviceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import proj.xmlws.dto.AccommodationSearchDTO;
 import proj.xmlws.dto.AccommodationUnitDTO;
 import proj.xmlws.dto.AccommodationUnitListDTO;
 import proj.xmlws.exception.AccommodationException;
@@ -15,6 +16,8 @@ import proj.xmlws.repository.AccommodationRepository;
 import proj.xmlws.repository.AccommodationUnitRepository;
 import proj.xmlws.repository.AccommodationUnitTypeRepository;
 import proj.xmlws.service.AccommodationUnitService;
+
+import java.time.LocalDate;
 import java.util.List;
 
 @Service
@@ -111,4 +114,20 @@ public class AccommodationUnitServiceImpl implements AccommodationUnitService {
             throw new AccommodationException(HttpStatus.NOT_FOUND, "There is no rooms!");
         }
     }
+
+    @Override
+    public AccommodationUnitListDTO getFreeAccommodationUnits(AccommodationSearchDTO accommodationSearchDTO, Long accommodationId) {
+        AccommodationUnitListDTO freeAccommodationUnitListDTO = new AccommodationUnitListDTO();
+        List<AccommodationUnit> freeAccommodationUnitList = accommodationUnitRepository.
+                getFreeAccommodationUnits(accommodationSearchDTO.getStartDate(), accommodationSearchDTO.getEndDate(), accommodationId);
+        if(freeAccommodationUnitList.isEmpty()) {
+            return new AccommodationUnitListDTO();
+        } else {
+            for(AccommodationUnit au: freeAccommodationUnitList) {
+                freeAccommodationUnitListDTO.getAccommodationUnitDTOList().add(accommodationUnitMapper.map(au));
+            }
+        }
+        return freeAccommodationUnitListDTO;
+    }
+
 }

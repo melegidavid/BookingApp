@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import proj.xmlws.dto.AccommodationDTO;
+import proj.xmlws.dto.AccommodationSearchDTO;
 import proj.xmlws.dto.AccommodationUnitDTO;
 import proj.xmlws.service.AccommodationService;
 import proj.xmlws.service.AccommodationUnitService;
@@ -56,6 +57,11 @@ public class AccommodationController {
     @GetMapping("/{id}/units")
     public ResponseEntity<?> getAccommodationUnits(@PathVariable("id") Long accommodationId) {
         return ResponseEntity.ok(accommodationUnitService.getAllUnitsOfAccommodation(accommodationId));
+    }
+
+    @PostMapping("/{id}/freeUnits")
+    public ResponseEntity<?> getFreeAccommodationUnits(@PathVariable("id") Long accommodationId, @RequestBody AccommodationSearchDTO accommodationSearchDTO) {
+        return ResponseEntity.ok(accommodationUnitService.getFreeAccommodationUnits(accommodationSearchDTO, accommodationId));
     }
 
     @PostMapping("/{id}/units")
